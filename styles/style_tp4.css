@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(209, 207, 207);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    color:black;
+    text-align: center;
+}
+.principal{
+    width: 80%;
+    margin: auto;
+}
+
+/* index.html */
+#boutique{
+    text-decoration: none;
+    color: rgb(28, 87, 136) 
+}
+#boutique:hover{
+    color: #47d4ff;
+}
+#icon{
+    margin-bottom: 20px;
+}
+#logo{
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}
+.principal h2{
+    display: inline-block;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(22, 133, 236);
+    color: rgb(28, 87, 136)
+}
+p{
+    text-align: justify;
+}
+#puces{
+    text-align: left;
+    list-style: none;
+    padding: 0px;
+    
+}
+#puces li{
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0px;
+    background-color: white;
+}
+#lien-cgu > li{
+    text-align: left;
+}
+#lien-cgu > li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#lien-cgu a:hover{
+    background-color: aqua;
+}
+
+/* jeux.html */
+.tableau{
+    width: 320px;
+    margin: auto;
+    border: none;
+}
+#titre{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 10px;
+}
+.colonne4 th:nth-child(4){
+    padding: 10px;
+}
+button{
+    width: 320px;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(59, 230, 164);
+    color: white;
+}
+button:hover{
+    background-color: rgb(90, 247, 195);
+}
+
